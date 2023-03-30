@@ -16,7 +16,7 @@
                     </div>
                 </td>
             </tr>
-        </table>
+        </table> 
         <br>
         <h2>Game Totals</h2>
         <table class="game-table-result">

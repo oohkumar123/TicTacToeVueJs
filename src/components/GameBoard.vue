@@ -3,7 +3,7 @@
         <GameGrid></GameGrid>
         <GameMessages></GameMessages>
         <PlayerGrid></PlayerGrid>
-        <GameScores></GameScores>
+        <GameScores></GameScores> 
     </div>
 </template>
 
