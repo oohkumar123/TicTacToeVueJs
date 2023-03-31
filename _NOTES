@@ -1,2 +1,10 @@
 git subtree push --prefix dist origin gh-pages
 Push dist to the gh-pages branch of github pages. Makes it the root.
+
+
+process
+1. work on master branch
+2. add and commit on master branch
+3. build on master branch
+4. manually make changes to index file
+5. 
