@@ -22,7 +22,7 @@ export default createStore({
             gameDraw: 'This game is a draw',
             gameWinnerX: 'Player X wins !',
             gameWinnerO: 'Player O wins !',
-            gameOver: 'Game over man!!, Game over!',  
+            gameOver: 'Game over man!! Game over! ¯\\_(ツ)_/¯',  
         },
         message: '',
         count: 0,

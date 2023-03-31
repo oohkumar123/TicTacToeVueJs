@@ -1,7 +1,7 @@
 <template>
     <div class="player-grid">
         <div :class="{hide: !this.showPlayers}"><span data-player="X" v-on:click="setStartingPlayer" ref="playerX" :class="{selected: (myPlayer=='X')}">X</span></div>
-        <div><span v-on:click="reset()">Reset</span></div>
+        <div><span v-on:click="reset()">{{resett}}</span></div>
         <div :class="{hide: !this.showPlayers}"><span data-player="O" v-on:click="setStartingPlayer" ref="playerO" :class="{selected: (myPlayer=='O')}">O</span></div>
     </div>
 </template>
@@ -11,6 +11,13 @@ import { mapState, mapGetters } from 'vuex'
 
 export default {
     name: "PlayerGrid",
+    data() {
+        return {
+            resett: 'Reset',
+            //reset: '¯\\_(ツ)_/¯'
+        }
+
+    },
     computed: {
         ...mapState({
             myPlayer: 'player',
