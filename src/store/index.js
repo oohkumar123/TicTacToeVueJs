@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-//comment
+
 export default createStore({
     state: {
         player: "",
