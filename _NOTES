@@ -1,0 +1,2 @@
+git subtree push --prefix dist origin gh-pages
+Push dist to the gh-pages branch of github pages. Makes it the root.
