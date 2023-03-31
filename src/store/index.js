@@ -11,7 +11,7 @@ export default createStore({
             {winner: false, player:''},
             {winner: false, player:''},
             {winner: false, player:''},
-            {winner: false, player:''},
+            {winner: false, player:''},n
             {winner: false, player:''},
             {winner: false, player:''},
         ],
