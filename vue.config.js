@@ -17,5 +17,6 @@ module.exports = defineConfig({
             args[0].title = "Tic Tac Toe by Kumar Desai";
             return args;
         })
-  }
+  }, 
+  publicPath: '/TicTacToeVueJs/'
 })

@@ -1,7 +1,6 @@
 //deploy github pages process
 1. work on master branch
-2. add and commit on master branch
-3. build on master branch
-4. manually make changes to dist/index file
-2. add and commit on master branch again
-5. then: git subtree push --prefix dist origin gh-pages
+2. build
+3. update dist/index file
+4. add and commit and push on master branch
+5. then: git subtree push --prefix dist origin gh-pages2
