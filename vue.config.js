@@ -14,7 +14,7 @@ module.exports = defineConfig({
     config
         .plugin('html')
         .tap(args => {
-            args[0].title = "Tic Tac Toe by Kumar Desai";
+            args[0].title = "Tic Tac Toe by Kumar The Great";
             return args;
         })
   }, 
