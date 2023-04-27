@@ -27,7 +27,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .container {
-    width: 650px;
+    max-width: 650px;
     margin:auto;
 }
 </style>

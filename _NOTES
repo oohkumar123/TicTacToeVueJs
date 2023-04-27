@@ -3,3 +3,4 @@
 2. build
 4. add and commit and push on master branch
 5. then: git subtree push --prefix dist origin gh-pages
+6. Wait 60 seconds before checking for change

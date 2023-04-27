@@ -64,6 +64,9 @@ export default {
         &:nth-child(3) {
             span {
                 background: $federal-blue;
+                @media (max-width: 670px) {
+                    width: 100%
+                }
             }
             &.hide {visibility: hidden;}
         }
@@ -74,19 +77,28 @@ export default {
                 border-radius: 20px;
                 padding: 22px;
                 color: white;
+                @media (max-width: 670px) {
+                    font-size: 22px;
+                    border-radius: 15px;
+                    padding: 12px;
+                }
             }
         }
         span {
             font-size: 60px;
             border-radius: 20px;
             padding: 22px;
+            text-align: center;
+            @media (max-width: 670px) {
+                font-size: 22px;
+                border-radius: 15px;
+                padding: 12px;
+            }
             color: white;
             cursor: pointer;            
             &.selected {
                 background: $marian-red;
-
             }
-
         }
     }
 }

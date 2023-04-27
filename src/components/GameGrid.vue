@@ -146,6 +146,9 @@ export default {
             span {
                 font-size: 120px;
                 color: white;
+                @media (max-width: 670px) {
+                    font-size: 21vw;
+                }
             }
             &.winner {
                 color: red;

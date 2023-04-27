@@ -76,13 +76,23 @@ export default {
         h2 {
             font-size: 40px;
             color: $federal-blue;
+            @media (max-width: 670px) {
+                font-size: 7vw;
+            }
         }
         .game-table-result {
             margin-top: 20px;
+            @media (max-width: 670px) {
+                margin-top: 0;
+            }
+
             th {
                 padding: 10px;
                 color: $federal-blue;
                 font-size: 22px; 
+                @media (max-width: 670px) {
+                    font-size: 6vw;
+                }
                 text-align: center;
                 width:140px;
                 &:nth-child(2) {
@@ -92,10 +102,14 @@ export default {
                     text-align: center;
                 }
             }
+            
             td {
                 padding: 10px;
                 color: $honolulu-blue;
                 font-size: 50px;
+                @media (max-width: 670px) {
+                    font-size: 9vw;
+                }
                 text-align: center;
                 border-bottom: 1px dotted #ccc;
                 &:nth-child(2) {}
